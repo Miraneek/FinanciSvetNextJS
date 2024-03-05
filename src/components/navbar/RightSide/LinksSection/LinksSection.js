@@ -11,7 +11,7 @@ export default function LinksSection() {
                     link: '#',
                     icon: {
                         className: 'icon icon-tabler icon-tabler-map',
-                        stroke: '#3d3d3d',
+                        stroke: '#00b341',
                         path: (
                             <>
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -27,7 +27,7 @@ export default function LinksSection() {
                     link: '#',
                     icon: {
                         className: 'icon icon-tabler icon-tabler-pencil-question',
-                        stroke: '#3d3d3d',
+                        stroke: '#00b341',
                         path: (
                             <>
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -44,7 +44,7 @@ export default function LinksSection() {
                     link: 'clanky/TemplateClanek.html',
                     icon: {
                         className: 'icon icon-tabler icon-tabler-news',
-                        stroke: '#3d3d3d',
+                        stroke: '#fd0061',
                         path: (
                             <>
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -62,7 +62,7 @@ export default function LinksSection() {
                     link: '#',
                     icon: {
                         className: 'icon icon-tabler icon-tabler-users',
-                        stroke: '#3d3d3d',
+                        stroke: '#00b341',
                         path: (
                             <>
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -84,7 +84,7 @@ export default function LinksSection() {
                     link: '#',
                     icon: {
                         className: 'icon icon-tabler icon-tabler-businessplan',
-                        stroke: '#3d3d3d',
+                        stroke: '#00b341',
                         path: (
                             <>
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -103,7 +103,7 @@ export default function LinksSection() {
                     link: '#',
                     icon: {
                         className: 'icon icon-tabler icon-tabler-wallet',
-                        stroke: '#3d3d3d',
+                        stroke: '#00b341',
                         path: (
                             <>
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -124,7 +124,7 @@ export default function LinksSection() {
                     link: '#',
                     icon: {
                         className: 'icon icon-tabler icon-tabler-businessplan',
-                        stroke: '#3d3d3d',
+                        stroke: '#00b341',
                         path: (
                             <>
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -143,7 +143,7 @@ export default function LinksSection() {
                     link: '#',
                     icon: {
                         className: 'icon icon-tabler icon-tabler-building-bank',
-                        stroke: '#3d3d3d',
+                        stroke: '#00b341',
                         path: (
                             <>
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -164,7 +164,7 @@ export default function LinksSection() {
                     link: '#',
                     icon: {
                         className: 'icon icon-tabler icon-tabler-file-dollar',
-                        stroke: '#3d3d3d',
+                        stroke: '#00b341',
                         path: (
                             <>
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -181,7 +181,7 @@ export default function LinksSection() {
                     link: '#',
                     icon: {
                         className: 'icon icon-tabler icon-tabler-brand-ycombinator',
-                        stroke: '#3d3d3d',
+                        stroke: '#00b341',
                         path: (
                             <>
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

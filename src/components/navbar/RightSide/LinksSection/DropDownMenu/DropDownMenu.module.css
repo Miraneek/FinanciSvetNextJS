@@ -13,7 +13,9 @@
     gap: 4px;
     border: none;
     cursor: pointer;
+    background-color: #f7f7ff;
 }
+
 
 .dropdown a:hover, .dropdown button:hover {
     color: #0094FF;
@@ -27,7 +29,6 @@
     z-index: 1;
     width: max-content;
     border-radius: 20px;
-    background-color: white;
     transform: translate(-35%);
 }
 
@@ -55,7 +56,6 @@
 .dropdownContent img {
     width: 30px;
     height: 30px;
-    filter: grayscale(100%)
 }
 
 
