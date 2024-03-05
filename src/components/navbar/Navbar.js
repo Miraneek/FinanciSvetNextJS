@@ -24,9 +24,9 @@ export default function Navbar(){
                                         <section>
                                             <svg xmlns="http://www.w3.org/2000/svg"
                                                  className="icon icon-tabler icon-tabler-map"
-                                                 width="28" height="28" viewBox="0 0 24 24" stroke-width="2.5"
+                                                 width="28" height="28" viewBox="0 0 24 24" strokeWidth="2.5"
                                                  stroke="#3d3d3d"
-                                                 fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                 fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                 <path d="M3 7l6 -3l6 3l6 -3v13l-6 3l-6 -3l-6 3v-13"/>
                                                 <path d="M9 4v13"/>
@@ -38,8 +38,8 @@ export default function Navbar(){
                                             <svg xmlns="http://www.w3.org/2000/svg"
                                                  className="icon icon-tabler icon-tabler-pencil-question" width="28"
                                                  height="28"
-                                                 viewBox="0 0 24 24" stroke-width="2.5" stroke=" #3d3d3d" fill="none"
-                                                 stroke-linecap="round" stroke-linejoin="round">
+                                                 viewBox="0 0 24 24" strokeWidth="2.5" stroke=" #3d3d3d" fill="none"
+                                                 strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                 <path
                                                     d="M8 20l6 -6l3 -3l1.5 -1.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4h4z"/>
@@ -53,9 +53,9 @@ export default function Navbar(){
                                         <section>
                                             <svg xmlns="http://www.w3.org/2000/svg"
                                                  className="icon icon-tabler icon-tabler-news"
-                                                 width="28" height="28" viewBox="0 0 24 24" stroke-width="2.5"
+                                                 width="28" height="28" viewBox="0 0 24 24" strokeWidth="2.5"
                                                  stroke=" #3d3d3d"
-                                                 fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                 fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                 <path
                                                     d="M16 6h3a1 1 0 0 1 1 1v11a2 2 0 0 1 -4 0v-13a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1v12a3 3 0 0 0 3 3h11"/>
@@ -68,9 +68,9 @@ export default function Navbar(){
                                         <section>
                                             <svg xmlns="http://www.w3.org/2000/svg"
                                                  className="icon icon-tabler icon-tabler-users"
-                                                 width="28" height="28" viewBox="0 0 24 24" stroke-width="2.5"
+                                                 width="28" height="28" viewBox="0 0 24 24" strokeWidth="2.5"
                                                  stroke="#3d3d3d"
-                                                 fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                 fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                 <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/>
                                                 <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"/>
@@ -89,8 +89,8 @@ export default function Navbar(){
                                             <svg xmlns="http://www.w3.org/2000/svg"
                                                  className="icon icon-tabler icon-tabler-businessplan" width="28"
                                                  height="28"
-                                                 viewBox="0 0 24 24" stroke-width="2.5" stroke="#3d3d3d" fill="none"
-                                                 stroke-linecap="round" stroke-linejoin="round">
+                                                 viewBox="0 0 24 24" strokeWidth="2.5" stroke="#3d3d3d" fill="none"
+                                                 strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                 <path d="M16 6m-5 0a5 3 0 1 0 10 0a5 3 0 1 0 -10 0"/>
                                                 <path d="M11 6v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4"/>
@@ -104,9 +104,9 @@ export default function Navbar(){
                                         <section>
                                             <svg xmlns="http://www.w3.org/2000/svg"
                                                  className="icon icon-tabler icon-tabler-wallet"
-                                                 width="28" height="28" viewBox="0 0 24 24" stroke-width="2.5"
+                                                 width="28" height="28" viewBox="0 0 24 24" strokeWidth="2.5"
                                                  stroke="#3d3d3d"
-                                                 fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                 fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                 <path
                                                     d="M17 8v-3a1 1 0 0 0 -1 -1h-10a2 2 0 0 0 0 4h12a1 1 0 0 1 1 1v3m0 4v3a1 1 0 0 1 -1 1h-12a2 2 0 0 1 -2 -2v-12"/>
@@ -123,8 +123,8 @@ export default function Navbar(){
                                             <svg xmlns="http://www.w3.org/2000/svg"
                                                  className="icon icon-tabler icon-tabler-businessplan" width="28"
                                                  height="28"
-                                                 viewBox="0 0 24 24" stroke-width="2.5" stroke="#3d3d3d" fill="none"
-                                                 stroke-linecap="round" stroke-linejoin="round">
+                                                 viewBox="0 0 24 24" strokeWidth="2.5" stroke="#3d3d3d" fill="none"
+                                                 strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                 <path d="M16 6m-5 0a5 3 0 1 0 10 0a5 3 0 1 0 -10 0"/>
                                                 <path d="M11 6v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4"/>
@@ -139,8 +139,8 @@ export default function Navbar(){
                                             <svg xmlns="http://www.w3.org/2000/svg"
                                                  className="icon icon-tabler icon-tabler-building-bank" width="28"
                                                  height="28"
-                                                 viewBox="0 0 24 24" stroke-width="2.5" stroke="#3d3d3d" fill="none"
-                                                 stroke-linecap="round" stroke-linejoin="round">
+                                                 viewBox="0 0 24 24" strokeWidth="2.5" stroke="#3d3d3d" fill="none"
+                                                 strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                 <path d="M3 21l18 0"/>
                                                 <path d="M3 10l18 0"/>
@@ -156,9 +156,9 @@ export default function Navbar(){
                                         <section>
                                             <svg xmlns="http://www.w3.org/2000/svg"
                                                  className="icon icon-tabler icon-tabler-file-dollar"
-                                                 width="28" height="28" viewBox="0 0 24 24" stroke-width="2.5"
+                                                 width="28" height="28" viewBox="0 0 24 24" strokeWidth="2.5"
                                                  stroke="#3d3d3d"
-                                                 fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                 fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                 <path d="M14 3v4a1 1 0 0 0 1 1h4"/>
                                                 <path
@@ -172,8 +172,8 @@ export default function Navbar(){
                                             <svg xmlns="http://www.w3.org/2000/svg"
                                                  className="icon icon-tabler icon-tabler-brand-ycombinator" width="28"
                                                  height="28"
-                                                 viewBox="0 0 24 24" stroke-width="2.5" stroke="#3d3d3d" fill="none"
-                                                 stroke-linecap="round" stroke-linejoin="round">
+                                                 viewBox="0 0 24 24" strokeWidth="2.5" stroke="#3d3d3d" fill="none"
+                                                 strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                 <path
                                                     d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"/>
