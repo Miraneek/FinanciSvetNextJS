@@ -1,0 +1,22 @@
+.right-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 900px) {
+    .right-side {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: start;
+        transform: translate(100%);
+        transition: transform 0.3s ease, visibility 0s linear 0.3s, opacity 0.3s ease; /* Adjust the duration and timing function as needed */
+        visibility: hidden;
+        opacity: 0;
+        padding-bottom: 1000000000px;
+    }
+
+    .right-side-clicked {
+        visibility: visible;
+        opacity: 1;
+    }
+}

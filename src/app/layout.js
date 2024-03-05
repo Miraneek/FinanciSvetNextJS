@@ -17,7 +17,7 @@ export default function RootLayout({children}) {
             <body className={inter.className}>
                 <ZpetnaVazba/>
                 <Navbar/>
-                {children}
+                    {children}
                 <Footer/>
             </body>
         </html>

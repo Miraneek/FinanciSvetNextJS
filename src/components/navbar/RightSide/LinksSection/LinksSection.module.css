@@ -1,0 +1,37 @@
+.linksSection ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.linksSection li {
+    margin: 0 15px;
+}
+
+@media only screen and (max-width: 900px) {
+    .linksSection {
+        display: flex;
+        justify-content: start;
+        margin-top: 10px;
+    }
+
+    .linksSection ul {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .linksSection button {
+        font-size: 35px;
+    }
+
+    .linksSection a {
+        font-size: 25px;
+    }
+}

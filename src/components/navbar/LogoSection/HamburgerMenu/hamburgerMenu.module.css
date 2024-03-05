@@ -1,0 +1,57 @@
+.containerHamburgerIcon {
+    position: relative;
+    display: none;
+}
+
+.menu_icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.menu_icon span {
+    position: absolute;
+    display: block;
+    height: 6px; /* Adjusted size */
+    width: 45px; /* Adjusted size */
+    background-color: #3d3d3d;
+    transform: rotate(0);
+    transition: all 200ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+/* Positioning of individual lines */
+.one {
+    top: 0;
+}
+
+.two {
+    top: 18px; /* Adjusted position */
+}
+
+.three {
+    top: 36px; /* Adjusted position */
+}
+
+/* Animation when clicked */
+.clicked .one {
+    transform: translateY(18px) rotate(45deg); /* Adjusted position */
+}
+
+.clicked .two {
+    opacity: 0;
+}
+
+.clicked .three {
+    transform: translateY(-18px) rotate(-45deg); /* Adjusted position */
+}
+
+
+@media only screen and (max-width: 900px) {
+    .containerHamburgerIcon {
+        display: inline-block;
+    }
+}

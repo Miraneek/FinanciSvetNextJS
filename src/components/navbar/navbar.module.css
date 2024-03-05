@@ -1,0 +1,17 @@
+.header {
+    color: #ffffff;
+    padding-bottom: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
