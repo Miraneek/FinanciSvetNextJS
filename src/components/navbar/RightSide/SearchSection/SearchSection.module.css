@@ -20,7 +20,8 @@
     border-radius: 10px;
     border: none;
     box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.25);
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 46px;
     padding-left: 40px;
     padding-right: 10px;
@@ -57,11 +58,13 @@
     .searchBar {
         display: flex;
         justify-content: center;
+        margin: 0;
     }
 
     .searchBar input {
         width: 100%;
         max-width: 100000px;
+        box-shadow: none;
     }
 
     .searchBar div {

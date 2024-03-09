@@ -1,14 +1,13 @@
 import styles from "./logoSection.module.css";
-import HamburgerMenu from "@/components/navbar/LogoSection/HamburgerMenu/HamburgerMenu";
+import Link from "next/link";
 
 export default function LogoSection() {
 
     return (
         <section className={styles.logoSection}>
-            <a href="">
+            <Link href="/">
                 <img src="/nawbar/Finanční%20Svět%20Logo.png" alt="Finanční Svět Logo"/>
-            </a>
-            <HamburgerMenu/>
+            </Link>
         </section>
     );
 }

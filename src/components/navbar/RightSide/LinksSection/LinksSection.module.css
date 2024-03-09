@@ -2,22 +2,21 @@
     list-style: none;
     display: flex;
     align-items: center;
-    flex-direction: row;
     height: 100%;
+    flex-direction: row;
     margin: 0;
     padding: 0;
+    gap: 15px;
 }
 
-
-.linksSection li {
-    margin: 0 15px;
+.linksSection{
+    height: 100%;
 }
 
 @media only screen and (max-width: 900px) {
     .linksSection {
         display: flex;
-        justify-content: start;
-        margin-top: 10px;
+        justify-content: flex-start;
     }
 
     .linksSection ul {
@@ -28,10 +27,10 @@
     }
 
     .linksSection button {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .linksSection a {
-        font-size: 25px;
+        font-size: 20px;
     }
 }

@@ -1,23 +1,48 @@
 .rightSide {
     display: flex;
     justify-content: space-between;
-    background-color: #f7f7ff;
+    height: 100%;
 }
 
 @media only screen and (max-width: 900px) {
     .rightSide {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: flex-start;
-        transform: translate(100%);
-        transition: transform 0.3s ease, visibility 0s linear 0.3s, opacity 0.3s ease; /* Adjust the duration and timing function as needed */
-        visibility: hidden;
-        opacity: 0;
-        padding-bottom: 1000000000px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
     }
 
-    .rightSideClicked {
-        visibility: visible;
-        opacity: 1;
+    .mobileMenu {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        display: none;
     }
+
+    .open {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .toggleButton {
+        background-color: #222;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .menuItems {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .menuItems a {
+        color: #fff;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+
+
 }

@@ -1,15 +1,13 @@
 "use client";
-import styles from "./hamburgerMenu.module.css";
+import styles from "./hamburger.module.css";
 import {useState} from "react";
 
-
-export default function HamburgerMenu() {
+export default function HamburgerMenu({handleToggle}) {
     const [isClicked, setIsClicked] = useState(false);
 
     const handleIconClick = () => {
         setIsClicked(!isClicked);
-        let dropdown = document.querySelector(".right-side");
-        dropdown.classList.toggle("show");
+        handleToggle();
     };
 
     return (

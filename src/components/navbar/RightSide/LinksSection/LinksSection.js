@@ -1,7 +1,6 @@
 import DropDownMenu from "@/components/navbar/RightSide/LinksSection/DropDownMenu/DropDownMenu";
 import styles from "./LinksSection.module.css";
 export default function LinksSection() {
-
     const menuItems = [
         {
             title: 'Brigády',
@@ -212,7 +211,11 @@ export default function LinksSection() {
         <section className={styles.linksSection}>
             <ul>
                 {menuItems.map((menuItem, index) => (
-                    <DropDownMenu key={index} title={menuItem.title} items={menuItem.items}/>
+                    <DropDownMenu
+                        key={index}
+                        title={menuItem.title}
+                        items={menuItem.items}
+                    />
                 ))}
             </ul>
         </section>

@@ -4,14 +4,13 @@
 
 @media only screen and (max-width: 900px) {
     .logoSection {
-        margin: 10px auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-right: 20px;
-    }
-
-    .logoSection {
         margin: 0;
+        padding: 0 20px;
+    }
+    .logoSection img {
+        max-width: 55vw;
     }
 }

@@ -1,23 +1,25 @@
 .containerHamburgerIcon {
-    position: relative;
+    position: absolute;
+    top: 20px;
     display: none;
+    right: 20px;
 }
 
 .menu_icon {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
     position: relative;
     display: flex;
     align-items: center;
-    padding: 5px 0;
+    padding: 2px 0;
 }
 
 .menu_icon span {
     position: absolute;
     display: block;
-    height: 6px; /* Adjusted size */
-    width: 45px; /* Adjusted size */
+    height: 5px; /* Adjusted size */
+    width: 35px; /* Adjusted size */
     background-color: #3d3d3d;
     transform: rotate(0);
     transition: all 200ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
@@ -29,16 +31,16 @@
 }
 
 .two {
-    top: 18px; /* Adjusted position */
+    top: 14px; /* Adjusted position */
 }
 
 .three {
-    top: 36px; /* Adjusted position */
+    top: 28px; /* Adjusted position */
 }
 
 /* Animation when clicked */
 .clicked .one {
-    transform: translateY(18px) rotate(45deg); /* Adjusted position */
+    transform: translateY(14px) rotate(45deg); /* Adjusted position */
 }
 
 .clicked .two {
@@ -46,7 +48,7 @@
 }
 
 .clicked .three {
-    transform: translateY(-18px) rotate(-45deg); /* Adjusted position */
+    transform: translateY(-14px) rotate(-45deg); /* Adjusted position */
 }
 
 
