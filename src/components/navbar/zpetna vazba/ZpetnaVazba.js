@@ -13,7 +13,7 @@ export default function ZpetnaVazba() {
         <div className={`${styles.zpetnaVazba} ${isVisible ? styles.visible : styles.hidden}`}>
             <p id="zpetnaVazba">
                 Prosíme o krátkou zpětnou vazbu na naši stránku. Vaše názory jsou důležité. Děkujeme.{' '}
-                <a href="https://forms.gle/LTxMtpbreAKNXdKj9">odkaz zde</a>
+                <a href={"https://forms.gle/LTxMtpbreAKNXdKj9"}>odkaz zde</a>
                 <button onClick={handleButtonClick}>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
