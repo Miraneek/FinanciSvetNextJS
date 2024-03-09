@@ -4,7 +4,7 @@ Vítejte v projektu Finanční Svět, který se zaměřuje na poskytování jedn
 
 ## Naše stránka
 
-![alt text](https://i.imgur.com/prVJsFL.png)
+[<img src="https://i.imgur.com/prVJsFL.png">](https://financnisvet.vercel.app)
 
 ## O Projektu
 
