@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Finanční Svět
 
-## Getting Started
+Vítejte v projektu Finanční Svět, který se zaměřuje na poskytování jednoduchých a přehledných informací o finanční gramotnosti pro mladé lidi.
 
-First, run the development server:
+## Naše stránka
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![alt text](https://i.imgur.com/CkPhl9h.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## O Projektu
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Náš tým tvoří tři studenti IT s různými specializacemi:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Miroslav Novotný (Programátor) - Zajišťuje funkčnost stránky.
+- Filip Másilko (Front-end Developer a Spisovatel) - Stará se o design přední části stránky a píše články.
+- Matěj Rybář (Web Designer a Video Editor) - Navrhuje celý vzhled stránek a stříhá videa.
 
-## Learn More
+## Popis Problému
 
-To learn more about Next.js, take a look at the following resources:
+Projekt vznikl z potřeby řešit praktické otázky týkající se financí, kterým mladí lidé často čelí. Nejde o to, jak složité daňové přiznání, ale spíše o základy, jako je placení daní, investice a hledání brigád.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Řešení
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Naše webová stránka nabízí jednoduchý přístup k informacím o finanční gramotnosti. Zde naleznete články, tutoriály a jednoduché step by step tutoriály, které vám pomohou porozumět základním principům financí.
 
-## Deploy on Vercel
+## Technologie
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Používáme webový framework NextJS a vercel pro deployování naší stránky.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Odkazy
+
+- [Finanční Svět](https://financnisvet.vercel.app)
+- [Formulář pro zpětnou vazbu](https://forms.gle/LTxMtpbreAKNXdKj9)
+
+## Feedback
+
+Budeme moc rádi za feedback, který ným pomůže ve vylepšení naší stránky
+
+Děkujeme za pozornost!
