@@ -38,6 +38,7 @@
 
 .hidden {
     max-height: 0;
+    border-top: 1px solid #efeff6;
 }
 
 .hidden button{
