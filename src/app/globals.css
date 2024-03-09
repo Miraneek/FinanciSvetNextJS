@@ -11,7 +11,7 @@ body {
   overflow-x: hidden;
   padding-top: 10vh;
   min-height: 120vh;
-  background-color: #ffffff;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,5 +25,6 @@ a {
   html,
   body {
     padding-top: 0;
+    background: #ffffff;
   }
 }
