@@ -20,7 +20,7 @@
     display: block;
     height: 5px; /* Adjusted size */
     width: 35px; /* Adjusted size */
-    background-color: #3d3d3d;
+    background-color: var(--textColor);
     transform: rotate(0);
     transition: all 200ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }

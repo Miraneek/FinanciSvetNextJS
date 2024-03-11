@@ -29,6 +29,10 @@
     font-weight: 500;
 }
 
+.searchBar *:not(.borderForInput){
+    background: #efeff6;
+}
+
 .searchBar input:focus {
     outline: none;
 }

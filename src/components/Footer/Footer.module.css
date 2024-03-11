@@ -4,13 +4,13 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #efeff6;
+    background-color: var(--navBackgroundColor);
     margin-top: 100px;
 }
 
 .footer * {
-    background-color: #efeff6;
-    color: black;
+    background-color: var(--navBackgroundColor);
+    color: var(--textColor);
 }
 
 .footerLinks img {
@@ -63,7 +63,7 @@
 
 .hr {
     height: 2px;
-    color: #3d3d3d;
+    color: var(--textColor);
     width: 100%;
 }
 

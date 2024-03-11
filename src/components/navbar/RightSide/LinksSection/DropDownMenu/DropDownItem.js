@@ -19,7 +19,7 @@ export default function DropDownItem({label, link, icon, logo}) {
                     height="28"
                     viewBox="0 0 24 24"
                     strokeWidth="2.5"
-                    stroke={isHovered ? icon.stroke : "#3d3d3d"}
+                    stroke={isHovered ? icon.stroke : "var(--textColor)"}
                     fill="none"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -33,7 +33,7 @@ export default function DropDownItem({label, link, icon, logo}) {
                     src={logo}
                     alt={label}
                     style={{
-                        filter: isHovered ? "grayscale(0)" : "grayscale(100%)",
+                        filter: isHovered ? "grayscale(0)" : "var(--iconIMG)",
                     }}
                 />
             )}

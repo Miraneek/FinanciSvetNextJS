@@ -4,7 +4,7 @@
 
 .dropdown a, .dropdown button{
     text-decoration: none;
-    color: #3d3d3d;
+    color: var(--textColor);
     font-weight: 500;
     font-size: 22px;
     display: flex;
@@ -17,7 +17,7 @@
 
 
 .dropdown a:hover, .dropdown button:hover {
-    color: #0094FF;
+    color: var(--linkColor);
 }
 
 .dropdownContent {

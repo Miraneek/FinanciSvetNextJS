@@ -1,30 +1,46 @@
+:root {
+    --backgroundColor: #fff;
+    --navBackgroundColor: #efeff6;
+    --textColor: #3d3d3d;
+    --linkColor: #0094FF;
+}
+
+.darkMode{
+    --backgroundColor: #181f39;
+    --navBackgroundColor: #26325b;
+    --textColor: #efeff6;
+    --linkColor: #0094FF;
+    --iconIMG: grayscale(0);
+}
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-  padding-top: 10vh;
-  min-height: 120vh;
-  background: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    max-width: 100vw;
+    overflow-x: hidden;
+    padding-top: 10vh;
+    min-height: 120vh;
+    background: var(--backgroundColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--textColor);
 }
+
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 900px) {
-  html,
-  body {
-    padding-top: 0;
-    background: #ffffff;
-  }
+    html,
+    body {
+        padding-top: 0;
+    }
 }

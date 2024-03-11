@@ -1,17 +1,16 @@
 .header {
-    color: #ffffff;
     padding-bottom: 15px;
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #efeff6;
+    background-color: var(--navBackgroundColor);
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .header * {
-    background-color: #efeff6;
+    background-color: var(--navBackgroundColor);
 }
 
 .nav {
