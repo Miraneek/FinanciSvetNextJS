@@ -2,10 +2,13 @@
 import { useState, useEffect } from 'react';
 
 export default function ColorButton() {
+    let [whatever, setWhatever] = useState(false);
+
     const [darkMode, setDarkMode] = useState(() => {
         // getting stored value
         const initialValue = JSON.parse(localStorage.getItem("darkMode"));
         const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        setWhatever(prefersDarkMode);
         return initialValue || prefersDarkMode;
     });
 
@@ -22,8 +25,14 @@ export default function ColorButton() {
     }, [darkMode]);
 
     return (
-        <button onClick={toggleColorScheme}>
-            {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
-        </button>
+        <>
+            <button onClick={toggleColorScheme}>
+                {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+            </button>
+            <h2>
+                {whatever ? 'Dark Mode' : 'Light Mode'}
+            </h2>
+        </>
+
     );
 };
