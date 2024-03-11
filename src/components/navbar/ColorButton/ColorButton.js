@@ -2,16 +2,17 @@
 import { useState, useEffect } from 'react';
 
 export default function ColorButton() {
-    let [whatever, setWhatever] = useState(false);
 
-    const [darkMode, setDarkMode] = useState(() => {
-        // getting stored value
-        const initialValue = JSON.parse(localStorage.getItem("darkMode"));
-        const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        setWhatever(prefersDarkMode);
-        return initialValue || prefersDarkMode;
-    });
 
+    const [darkMode, setDarkMode] = useState();
+
+    useEffect(() => {
+        // Check if running on the client side
+        if (localStorage.getItem('darkMode') !== 'undefined') {
+            const initialValue = JSON.parse(localStorage.getItem('darkMode'));
+            setDarkMode(initialValue);
+        }
+    }, []);
     const toggleColorScheme = () => {
         setDarkMode(!darkMode);
     };
@@ -30,7 +31,7 @@ export default function ColorButton() {
                 {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
             </button>
             <h2>
-                {whatever ? 'Dark Mode' : 'Light Mode'}
+                {darkMode ? 'Dark Mode' : 'Light Mode'}
             </h2>
         </>
 
