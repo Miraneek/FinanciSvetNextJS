@@ -7,9 +7,9 @@
     border: 2px solid var(--textColor);
     background-color: var(--backgroundColor);
     border-radius: 5px;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
     width: 50px;
     aspect-ratio: 1/1;
 }
