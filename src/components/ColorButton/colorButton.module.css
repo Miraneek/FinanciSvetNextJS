@@ -2,13 +2,14 @@
     all: unset;
     cursor: pointer;
     color: var(--textColor);
-    display: flex;
-    align-items: center;
-    padding: 6px;
+    display: grid;
+    place-content: center;
     border: 2px solid var(--textColor);
+    background-color: var(--backgroundColor);
     border-radius: 5px;
     position: absolute;
+    bottom: 20px;
     right: 20px;
-    top: 45%;
+    width: 50px;
     aspect-ratio: 1/1;
 }

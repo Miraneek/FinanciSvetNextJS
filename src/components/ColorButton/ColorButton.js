@@ -8,7 +8,6 @@ export default function ColorButton() {
     const [darkMode, setDarkMode] = useState();
 
     useEffect(() => {
-        // Check if running on the client side
         if (localStorage.getItem('darkMode') !== 'undefined') {
             const initialValue = JSON.parse(localStorage.getItem('darkMode'));
             setDarkMode(initialValue);
@@ -19,10 +18,8 @@ export default function ColorButton() {
     };
 
     useEffect(() => {
-        // Update the class of the html element based on the darkMode state
         document.documentElement.classList.toggle('darkMode', darkMode);
 
-        // Save the user's preference in local storage
         localStorage.setItem("darkMode", JSON.stringify(darkMode));
     }, [darkMode]);
 
@@ -62,8 +59,6 @@ export default function ColorButton() {
                     />
                 </svg>
             )}
-
-
         </button>
     );
 };
