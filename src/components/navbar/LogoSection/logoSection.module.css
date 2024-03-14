@@ -1,5 +1,6 @@
 .logoSection img {
     max-width: 300px;
+    width: 100%;
 }
 
 @media only screen and (max-width: 900px) {
