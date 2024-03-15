@@ -12,4 +12,5 @@
     right: 40px;
     width: 50px;
     aspect-ratio: 1/1;
+    z-index: 100000;
 }

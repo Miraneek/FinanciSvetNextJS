@@ -4,7 +4,7 @@ import { useTheme } from 'next-themes'
 
 export default function ColorButton() {
 
-    const { theme, setTheme } = useTheme()
+    const {theme, setTheme } = useTheme()
 
     return (
         <button onClick={() => theme === 'light' ? setTheme('dark') : setTheme('light')} className={styles.button}>

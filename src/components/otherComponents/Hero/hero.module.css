@@ -1,57 +1,51 @@
 .section {
-     height: 80vh;
-     padding: 20px 20% 20px 20px;
-     width: 80%;
-     margin: 0 auto;
-     font-size: 60px;
-     position: relative;
-     z-index: 5;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
- }
-
-.section *:not(i){
-    font-family: Poppins, sans-serif;
-    line-height: 1.4;
-    background-color: transparent;
+    height: 60vh;
+    padding: 20px 20% 20px 20px;
+    width: 80vw;
+    font-size: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
 }
 
-.section strong{
+.section strong {
     color: #2DB47C;
 }
 
-.section strong span{
+.section strong span {
     color: #2480BD;
 }
 
-.section img{
-    right: 0;
-    bottom: 0;
+.section img {
+    right: -550px;
+    bottom: -450px;
     position: absolute;
-    height: 40vw;
+    height: 1000px;
+    aspect-ratio: 1/1;
     background-color: transparent;
     z-index: -1;
 }
 
 @media only screen and (max-width: 1100px) and (min-width: 900px) {
-    .section{
+    .section {
         width: 100vw;
     }
 }
 
 @media only screen and (max-width: 900px) {
-    .section h1{
+    .section h1 {
         font-size: 50px;
         text-align: center;
         margin: 0 auto;
     }
 
-    .linearGradientBorder{
+    .linearGradientBorder {
         display: none;
     }
 
-    .section{
+    .section {
         padding: 0;
         height: 40vh;
         width: 100%;
@@ -62,7 +56,11 @@
         margin-top: 150px;
     }
 
-    .section img{
+    .section img {
         position: relative;
+        width: 80vw;
+        bottom: 140px;
+        right: auto;
+        filter: grayscale(30%);
     }
 }

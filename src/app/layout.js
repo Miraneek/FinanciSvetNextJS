@@ -2,10 +2,15 @@ import {Inter} from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
-import ColorButton from "@/components/ColorButton/ColorButton";
 import {ThemeProvider} from "next-themes";
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from "@vercel/analytics/react"
+import {SpeedInsights} from "@vercel/speed-insights/next"
+import {Analytics} from "@vercel/analytics/react"
+import styles from "./page.module.css"
+import dynamic from "next/dynamic";
+
+const ColorButton = dynamic(() => import("@/components/ColorButton/ColorButton"), {
+    ssr: false
+})
 
 const inter = Inter({subsets: ["latin"]});
 
@@ -18,14 +23,14 @@ export const metadata = {
 
 export default function RootLayout({children}) {
     return (
-        <html lang="cs" suppressHydrationWarning={true}>
+        <html lang="cs">
         <body className={inter.className}>
-        <ThemeProvider themes={['light', 'dark']}>
+        <ThemeProvider>
             <SpeedInsights/>
             <Analytics/>
             <Navbar/>
             <ColorButton/>
-            <main>
+            <main className={styles.main}>
                 {children}
             </main>
             <Footer/>
