@@ -1,4 +1,3 @@
-import {Inter} from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
@@ -7,12 +6,16 @@ import {SpeedInsights} from "@vercel/speed-insights/next"
 import {Analytics} from "@vercel/analytics/react"
 import styles from "./page.module.css"
 import dynamic from "next/dynamic";
+import { Noto_Sans } from 'next/font/google'
+
+const font = Noto_Sans({
+    weight: '400',
+    subsets: ['latin'],
+})
 
 const ColorButton = dynamic(() => import("@/components/ColorButton/ColorButton"), {
     ssr: false
 })
-
-const inter = Inter({subsets: ["latin"]});
 
 export const metadata = {
     title: "Finanční Svět",
@@ -24,7 +27,7 @@ export const metadata = {
 export default function RootLayout({children}) {
     return (
         <html lang="cs">
-        <body className={inter.className}>
+        <body className={font.className}>
         <ThemeProvider>
             <SpeedInsights/>
             <Analytics/>

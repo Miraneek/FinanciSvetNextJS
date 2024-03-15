@@ -10,6 +10,7 @@
     background: linear-gradient(0deg, rgba(45,180,124,1) 0%, rgba(36,128,189,1) 100%);
     background-repeat: no-repeat;
     padding: 4px;
+    width: 400px;
 }
 
 .searchBar{
@@ -20,13 +21,12 @@
     border-radius: 10px;
     border: none;
     box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.25);
-    width: 100%;
-    max-width: 400px;
     height: 46px;
     padding-left: 40px;
     padding-right: 10px;
     font-size: 22px;
     font-weight: 500;
+    width: 390px;
 }
 
 .searchBar *:not(.borderForInput){
