@@ -27,6 +27,7 @@
     font-size: 22px;
     font-weight: 500;
     width: 390px;
+    color: #3d3d3d;
 }
 
 .searchBar *:not(.borderForInput){
