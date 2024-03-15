@@ -1,31 +1,14 @@
 "use client"
 import styles from "./colorButton.module.css"
-import {useState, useEffect} from 'react';
+import { useTheme } from 'next-themes'
 
 export default function ColorButton() {
 
-
-    const [darkMode, setDarkMode] = useState();
-
-    useEffect(() => {
-        if (localStorage.getItem('darkMode') !== 'undefined') {
-            const initialValue = JSON.parse(localStorage.getItem('darkMode'));
-            setDarkMode(initialValue);
-        }
-    }, []);
-    const toggleColorScheme = () => {
-        setDarkMode(!darkMode);
-    };
-
-    useEffect(() => {
-        document.documentElement.classList.toggle('darkMode', darkMode);
-
-        localStorage.setItem("darkMode", JSON.stringify(darkMode));
-    }, [darkMode]);
+    const { theme, setTheme } = useTheme()
 
     return (
-        <button onClick={toggleColorScheme} className={styles.button}>
-            {darkMode ? (
+        <button onClick={() => theme === 'light' ? setTheme('dark') : setTheme('light')} className={styles.button}>
+            {theme === 'light' ? (
                 <svg width="30" height="30">
                     <circle cx="15" cy="15" r="6" fill="currentColor"/>
 

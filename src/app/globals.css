@@ -4,9 +4,10 @@
     --textColor: #3d3d3d;
     --linkColor: #0094FF;
     --iconIMG: grayscale(1);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.darkMode{
+[data-theme='dark'] {
     --backgroundColor: #181f39;
     --navBackgroundColor: #26325b;
     --textColor: #efeff6;
@@ -19,6 +20,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+.animationHandlerer * {
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
