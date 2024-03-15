@@ -19,7 +19,7 @@ export default function RootLayout({children}) {
     return (
         <html lang="cs" suppressHydrationWarning={true}>
         <body className={inter.className}>
-        <ThemeProvider themes={['light', 'dark']}>7
+        <ThemeProvider themes={['light', 'dark']}>
             <SpeedInsights/>
             <Navbar/>
             <ColorButton/>
