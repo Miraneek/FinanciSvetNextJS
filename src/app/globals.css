@@ -8,9 +8,9 @@
 }
 
 [data-theme='dark'] {
-    --backgroundColor: #181f39;
-    --navBackgroundColor: #26325b;
-    --textColor: #efeff6;
+    --backgroundColor: #001933;
+    --navBackgroundColor: #001c48;
+    --textColor: #efefef;
     --linkColor: #0094FF;
     --iconIMG: grayscale(0);
 }
