@@ -33,7 +33,9 @@
     .header {
         width: 100%;
         padding: 0;
-        position: static;
+        position: fixed;
+        top: 0;
+        z-index: 10000;
     }
 
     .nav {

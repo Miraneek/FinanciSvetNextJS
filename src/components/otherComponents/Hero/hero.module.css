@@ -8,6 +8,7 @@
     flex-direction: column;
     align-items: center;
     z-index: 5;
+    margin-bottom: 200px;
 }
 
 .section h1 {
