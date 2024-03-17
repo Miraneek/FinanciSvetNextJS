@@ -58,7 +58,7 @@ export default function SearchSection() {
                     </label>
                 </div>
             </form>
-            {results && (
+            {results.length > 0 && (
                 <ul className={styles.results}>
                     {results.map((result, index) => (
                         <li key={index}>

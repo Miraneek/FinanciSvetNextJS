@@ -1,5 +1,5 @@
 export const articles = [
-    {title: 'co-je-to-ruzovy-papir', keywords: ['ruzovy', 'papir']},
-    {title: 'kde-hledat-brigadu', keywords: ['job', 'search']},
+    {title: 'CCo-je-to-ruzovy-papir', keywords: ['ruzovy', 'papir']},
+    {title: 'Kde-hledat-brigadu', keywords: ['job', 'search']},
     // ... more articles
 ];
