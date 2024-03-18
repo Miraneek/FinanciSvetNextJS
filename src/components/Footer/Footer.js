@@ -35,6 +35,7 @@ export default function Footer(){
                         <h4>Design</h4>
                         <h5>Matěj Rybář
                             <a href="https://www.instagram.com/matyrybarr/" target="_blank">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img src="/footer/instagram%20logo.webp" alt="Instagram logo"/>
                             </a>
                         </h5>
