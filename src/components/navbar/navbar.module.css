@@ -3,23 +3,19 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: var(--navBackgroundColor);
     display: flex;
     align-items: center;
     flex-direction: column;
     z-index: 1000;
 }
 
-.header * {
-    background-color: var(--navBackgroundColor);
-}
-
 .nav {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     padding: 20px;
     position: relative;
     width: 98vw;
+    height: 150px;
 }
 
 @media only screen and (max-width: 1100px) and (min-width: 900px) {

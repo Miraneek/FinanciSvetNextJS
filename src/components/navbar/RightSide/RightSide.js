@@ -13,7 +13,7 @@ export default function RightSide() {
     }
 
     return (
-        <div>
+        <>
             <HamburgerMenu handleToggle={handleToggle} />
             <section
                 className={`${styles.rightSide} ${styles.mobileMenu} ${
@@ -23,6 +23,6 @@ export default function RightSide() {
                 <LinksSection />
                 <SearchSection />
             </section>
-        </div>
+        </>
     );
 }

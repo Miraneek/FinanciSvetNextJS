@@ -5,20 +5,11 @@
     margin-left: 20px;
 }
 
-.borderForInput{
-    border-radius: 14px;
-    background: rgb(45,180,124);
-    background: linear-gradient(0deg, rgba(45,180,124,1) 0%, rgba(36,128,189,1) 100%);
-    background-repeat: no-repeat;
-    padding: 4px;
-    width: 400px;
-}
-
-.searchSection form{
+.searchSection form {
     margin: 0;
 }
 
-.searchBar{
+.searchBar {
     margin-left: 20px;
 }
 
@@ -26,21 +17,29 @@
     border-radius: 10px;
     border: none;
     box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.25);
-    height: 46px;
-    padding-left: 40px;
+    height: 60px;
+    padding-left: 10px;
     padding-right: 10px;
     font-size: 22px;
     font-weight: 500;
-    width: 100%;
-    color: #3d3d3d;
+    width: 400px;
+    background: rgba(0,0,0,0.1);
+    color: var(--textColor);
 }
 
-.searchBar input[type="search"]::-webkit-search-cancel-button{
+.searchBar input[type="search"]::-webkit-search-decoration,
+.searchBar input[type="search"]::-webkit-search-cancel-button,
+.searchBar input[type="search"]::-webkit-search-results-button,
+.searchBar input[type="search"]::-webkit-search-results-decoration {
     display: none;
 }
 
-.searchBar *:not(.borderForInput){
-    background: #efeff6;
+.searchBar input[type="search"]:focus {
+    outline: var(--secondColor) solid 3px;
+}
+
+.searchBar input[type="search"]::-webkit-search-cancel-button {
+    display: none;
 }
 
 .searchBar input:focus {
@@ -59,7 +58,7 @@
     border: none;
 }
 
-.results{
+.results {
     position: absolute;
     width: 100%;
     border-radius: 0 0 10px 10px;
@@ -75,7 +74,7 @@
     top: 44px;
 }
 
-.results *{
+.results * {
     color: #3d3d3d;
     background-color: #efeff6;
 }

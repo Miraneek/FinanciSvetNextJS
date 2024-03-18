@@ -1,5 +1,7 @@
 .logoSection img {
-    width: 300px;
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(0 0 20px #2db47c);
 }
 
 @media only screen and (max-width: 900px) {

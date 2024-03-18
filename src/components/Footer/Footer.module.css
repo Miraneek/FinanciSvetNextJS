@@ -4,13 +4,13 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: var(--navBackgroundColor);
+    background-color: var(--secondColor);
     margin-top: 100px;
     z-index: 1000;
 }
 
 .footer * {
-    background-color: var(--navBackgroundColor);
+    background-color: var(--secondColor);
     color: var(--textColor);
 }
 

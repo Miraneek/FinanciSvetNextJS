@@ -2,6 +2,15 @@
     position: relative;
 }
 
+.dropdown button{
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.dropdown button:hover {
+    /*text starts glowing white*/
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+}
+
 .dropdown a, .dropdown button{
     text-decoration: none;
     color: var(--textColor);
@@ -14,7 +23,6 @@
     border: none;
     cursor: pointer;
 }
-
 
 .dropdown a:hover, .dropdown button:hover {
     color: var(--linkColor);
@@ -29,6 +37,7 @@
     width: max-content;
     border-radius: 20px;
     transform: translate(-35%);
+    background: var(--secondColor);
 }
 
 .dropdownContent a {

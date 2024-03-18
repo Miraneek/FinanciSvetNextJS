@@ -3,6 +3,7 @@ import styles from "./navbar.module.css";
 import RightSide from "@/components/navbar/RightSide/RightSide";
 import ZpetnaVazba from "@/components/navbar/zpetna vazba/ZpetnaVazba";
 import 'animate.css';
+import GreenGlow from "@/components/otherComponents/GreenGlow/GreenGlow";
 
 export default function Navbar() {
     return (
