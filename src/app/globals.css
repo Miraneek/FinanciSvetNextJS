@@ -1,12 +1,4 @@
 :root {
-    --backgroundColor: #fff;
-    --navBackgroundColor: #efeff6;
-    --textColor: #3d3d3d;
-    --linkColor: #0094FF;
-    --iconIMG: grayscale(1);
-}
-
-[data-theme='dark'] {
     --backgroundColor: #001933;
     --navBackgroundColor: #001c48;
     --textColor: #efefef;
@@ -18,7 +10,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: background-color 0.4s ease-in;
 }
 
 html,

@@ -7,7 +7,7 @@ export default function LinksSection() {
             items: [
                 {
                     label: 'Kde hledat brigádu',
-                    link: '#',
+                    link: '/clanky/Kde-hledat-brigadu',
                     icon: {
                         className: 'icon icon-tabler icon-tabler-map',
                         stroke: '#00b341',
@@ -40,7 +40,7 @@ export default function LinksSection() {
                 },
                 {
                     label: 'Co je to růžový papír',
-                    link: 'clanky/TemplateClanek.html',
+                    link: ' #',
                     icon: {
                         className: 'icon icon-tabler icon-tabler-news',
                         stroke: '#fd0061',
