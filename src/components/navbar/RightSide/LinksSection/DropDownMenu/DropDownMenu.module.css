@@ -2,15 +2,8 @@
     position: relative;
 }
 
-.dropdown button{
+.dropdown button {
     background: transparent;
-    transition: all 0.3s ease-in-out;
-}
-.dropdown button:hover {
-    text-shadow: 0 0 10px #fff
-}
-
-.dropdown a, .dropdown button{
     text-decoration: none;
     color: var(--textColor);
     font-weight: 500;
@@ -21,7 +14,15 @@
     gap: 4px;
     border: none;
     cursor: pointer;
+    text-shadow: 0 0 10px #fff;
+    transition: text-shadow 0.1s ease-in-out;
 }
+
+
+.dropdown button:hover {
+    text-shadow: 0 0 20px #fff;
+}
+
 
 .dropdown a:hover {
     color: var(--linkColor);
@@ -30,13 +31,28 @@
 .dropdownContent {
     display: none;
     position: absolute;
-    min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    left: 2px;
+    z-index: 999;
     width: max-content;
     border-radius: 20px;
-    transform: translate(-35%);
+    padding-top: 10px;
+    background: var(--backgroundColor);
+    padding-left: 10px;
+    height: 0;
+    transition: height 0.2s ease-in-out;
+}
 
+.glow{
+    position: absolute;
+    top: 46%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 94%;
+    width: 2px;
+    border-radius: 10px;
+    background: rgba(255,255,255);
+    box-shadow: 0 0 20px 2px white;
+    z-index: 100000;
 }
 
 .dropdownContent a {
@@ -44,39 +60,34 @@
     text-decoration: none;
     display: block;
     text-align: left;
+    font-size: 22px;
 }
 
 .dropdownContent section {
-    padding: 8px 10px;
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 10px;
     width: 100%;
 }
 
-.dropdownContent svg {
-    width: 30px;
-    height: 30px;
+.dropdownContent svg, .dropdownContent img {
+    width: 20px;
+    height: 20px;
 }
-
-.dropdownContent img {
-    width: 30px;
-    height: 30px;
-}
-
 
 .dropdownContent a {
     display: block;
 }
 
 .dropdown:hover .dropdownContent {
-    display: block;
-    animation: fadeIn 0.1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    height: fit-content;
 }
 
 @media only screen and (max-width: 900px) {
-    .dropdownContent section{
+    .dropdownContent section {
         text-decoration: none;
         display: flex;
         align-items: center;
@@ -85,14 +96,14 @@
         padding: 0 0 0 20px;
     }
 
-    .dropdownContent{
+    .dropdownContent {
         display: block;
         position: static;
         transform: translate(0);
         box-shadow: none;
     }
 
-    .dropdown{
+    .dropdown {
         position: static;
         display: flex;
         justify-content: center;
@@ -101,7 +112,7 @@
         flex-direction: column;
     }
 
-    .dropdown a{
+    .dropdown a {
         font-size: 400px;
     }
 

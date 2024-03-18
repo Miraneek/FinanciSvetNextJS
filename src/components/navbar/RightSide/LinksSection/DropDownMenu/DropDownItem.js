@@ -1,11 +1,8 @@
 "use client";
 import React, {useState} from 'react';
 import Link from "next/link";
-import {useMediaQuery} from "react-responsive";
 
 export default function DropDownItem({label, link, icon, logo}) {
-
-    const isMobile = useMediaQuery({ maxWidth: 768 }, undefined, (matches) => matches);
 
     let [isHovered, setIsHovered] = useState(false);
 
@@ -15,8 +12,8 @@ export default function DropDownItem({label, link, icon, logo}) {
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className={icon.className}
-                    width="28"
-                    height="28"
+                    width="20"
+                    height="20"
                     viewBox="0 0 24 24"
                     strokeWidth="2.5"
                     stroke={isHovered ? icon.stroke : "var(--textColor)"}

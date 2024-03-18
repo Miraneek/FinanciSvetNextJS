@@ -23,7 +23,7 @@
     font-size: 22px;
     font-weight: 500;
     width: 400px;
-    background: rgba(0,0,0,0.1);
+    background: var(--darkerBackgroundColor);
     color: var(--textColor);
 }
 
@@ -60,23 +60,13 @@
 
 .results {
     position: absolute;
+    top: 80px;
     width: 100%;
-    border-radius: 0 0 10px 10px;
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #efeff6;
+    z-index: 999;
+    border-radius: 10px;
+    background: var(--darkerBackgroundColor);
     list-style-type: none;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    z-index: 10;
-    overflow: hidden;
-    top: 44px;
-}
-
-.results * {
-    color: #3d3d3d;
-    background-color: #efeff6;
+    padding: 10px;
 }
 
 @media only screen and (max-width: 1000px) {
