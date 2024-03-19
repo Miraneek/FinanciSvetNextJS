@@ -6,6 +6,7 @@ import {Analytics} from "@vercel/analytics/react"
 import styles from "./page.module.css"
 import {Noto_Sans} from 'next/font/google'
 
+
 const font = Noto_Sans({
     weight: '400',
     subsets: ['latin'],
