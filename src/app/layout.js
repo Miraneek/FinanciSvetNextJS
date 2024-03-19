@@ -1,10 +1,10 @@
-import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import {SpeedInsights} from "@vercel/speed-insights/next"
 import {Analytics} from "@vercel/analytics/react"
 import styles from "./page.module.css"
 import {Noto_Sans} from 'next/font/google'
+import "./globals.css";
 
 
 const font = Noto_Sans({
