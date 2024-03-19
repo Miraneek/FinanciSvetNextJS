@@ -1,7 +1,5 @@
 .header {
-    padding-bottom: 15px;
     position: fixed;
-    top: 0;
     width: 100%;
     display: flex;
     align-items: center;
@@ -19,7 +17,7 @@
 }
 
 @media only screen and (max-width: 1100px) and (min-width: 900px) {
-    .nav{
+    .nav {
         width: 100vw;
     }
 }

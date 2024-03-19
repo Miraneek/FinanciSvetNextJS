@@ -34,20 +34,20 @@
     left: 2px;
     z-index: 999;
     width: max-content;
-    border-radius: 20px;
+    border-radius: 10px;
     padding-top: 10px;
-    background: var(--backgroundColor);
     padding-left: 10px;
     height: 0;
     transition: height 0.2s ease-in-out;
+    background: rgba(255,255,255,0.1);
 }
 
 .glow{
     position: absolute;
-    top: 46%;
-    transform: translateY(-50%);
+    top: 50%;
+    transform: translateY(-52%);
     left: 0;
-    height: 94%;
+    height: 98%;
     width: 2px;
     border-radius: 10px;
     background: rgba(255,255,255);
@@ -68,6 +68,11 @@
     display: flex;
     align-items: center;
     width: 100%;
+    z-index: 999;
+}
+
+.dropdownContent section:hover {
+    background: rgba(255,255,255,0.01);
 }
 
 .dropdownContent svg, .dropdownContent img {
