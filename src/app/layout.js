@@ -26,6 +26,7 @@ export default function RootLayout({children}) {
         <SpeedInsights/>
         <Analytics/>
         <Navbar/>
+        <div className={styles.transitionBlur}></div>
         <main className={styles.main}>
             {children}
         </main>

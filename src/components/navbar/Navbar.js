@@ -13,6 +13,7 @@ export default function Navbar() {
                     <LogoSection/>
                     <RightSide/>
                 </nav>
+                <div className={styles.transitionBlur}></div>
             </header>
         </>
     )
