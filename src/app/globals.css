@@ -16,7 +16,6 @@
 html,
 body {
     cursor: url("../../public/mousecursor/16kurzor1.png"), auto;
-
     max-width: 100vw;
     overflow-x: hidden;
     min-height: 120vh;

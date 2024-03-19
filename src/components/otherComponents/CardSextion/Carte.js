@@ -1,12 +1,13 @@
-import Image from "next/image";
+
+import style from "./Carte.module.css"
 
 export default function Carte({Name, Image, Text}) {
 
     return (
-        <div>
-            <Image src={Image} alt="Carte" width={1000} height={1000}/>
-            <h1>{Name}</h1>
-            <a>{Text}</a>
+        <div className={style.obalkarty}>
+          <img className={style.mainimage} src={Image} alt={Name}/>
+            <h1 className={style.nametext}>{Name}</h1>
+            <a className={style.text}>{Text}</a>
         </div>
     )
 }
