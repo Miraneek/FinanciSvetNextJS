@@ -1,0 +1,6 @@
+.flex{
+    margin-top: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+}

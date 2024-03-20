@@ -13,6 +13,10 @@
     cursor: pointer;
 }
 
+.obalkarty *{
+    transition: all 0.3s ease-in-out;
+}
+
 .mainimage{
     width: 155px;
     height: 155px;
@@ -24,6 +28,7 @@
     font-size: 0.775rem;
     text-align: center;
   margin-top: 15px;
+    text-shadow: 0 0 0 #fff;
 }
 
 .nametext{
@@ -34,13 +39,10 @@
 }
 
 .obalkarty:hover {
-    transform: translateY(-10px);
+    transform: scale(105%);
     .text, .nametext {
-        color: #0094FF;
+        color: white;
+        text-shadow: 0 0 10px #fff;
     }
-}
-
-.text, .nametext {
-    transition: color 0.3s ease;
 }
 
