@@ -7,6 +7,7 @@
 
 @media screen and (max-width: 900px) {
     .flex{
+        gap: 13vw;
         width: 100%;
         flex-direction: column;
         align-items: center;
