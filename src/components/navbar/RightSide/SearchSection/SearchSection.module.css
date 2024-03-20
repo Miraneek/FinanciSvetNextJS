@@ -23,8 +23,9 @@
     font-size: 22px;
     font-weight: 500;
     width: 400px;
-    background: var(--darkerBackgroundColor);
+    background: rgba(0,22,46,0.5);
     color: var(--textColor);
+    transition: background-color 0.3s ease-in-out;
 }
 
 .searchBar input[type="search"]::-webkit-search-decoration,
@@ -36,6 +37,7 @@
 
 .searchBar input[type="search"]:focus {
     outline: var(--secondColor) solid 3px;
+    background: rgba(0,22,46,0.8);
 }
 
 .searchBar input[type="search"]::-webkit-search-cancel-button {
@@ -82,16 +84,17 @@
     .searchBar {
         display: flex;
         justify-content: center;
-        margin: 0;
+        padding: 0;
     }
 
     .searchBar input {
-        width: 100%;
+        width: 94vw;
         max-width: 100000px;
         box-shadow: none;
+        margin: 0;
     }
 
     .searchBar div {
-        width: 96%;
+        width: 100%;
     }
 }

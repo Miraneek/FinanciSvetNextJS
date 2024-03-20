@@ -24,6 +24,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     color: var(--textColor);
+    scroll-behavior: smooth;
 }
 
 a {
