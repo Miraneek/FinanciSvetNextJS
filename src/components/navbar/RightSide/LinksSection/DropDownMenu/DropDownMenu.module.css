@@ -99,13 +99,23 @@
         gap: 10px;
         width: 100vw;
         padding: 0 0 0 20px;
+        position: static;
+    }
+
+    .glow{
+        height: 100%;
+        transform: translateY(-50%);
     }
 
     .dropdownContent {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        height: fit-content;
         position: static;
         transform: translate(0);
         box-shadow: none;
+        border-radius: 0;
     }
 
     .dropdown {
@@ -120,5 +130,4 @@
     .dropdown a {
         font-size: 400px;
     }
-
 }
