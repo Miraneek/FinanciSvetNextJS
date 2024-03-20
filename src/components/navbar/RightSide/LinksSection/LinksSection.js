@@ -119,25 +119,6 @@ export default function LinksSection() {
             title: 'Investice',
             items: [
                 {
-                    label: 'Do čeho investovat',
-                    link: '#',
-                    icon: {
-                        className: 'icon icon-tabler icon-tabler-businessplan',
-                        stroke: '#00b341',
-                        path: (
-                            <>
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <path d="M16 6m-5 0a5 3 0 1 0 10 0a5 3 0 1 0 -10 0"/>
-                                <path d="M11 6v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4"/>
-                                <path d="M11 10v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4"/>
-                                <path d="M11 14v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4"/>
-                                <path d="M7 9h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5"/>
-                                <path d="M5 15v1m0 -8v1"/>
-                            </>
-                        ),
-                    },
-                },
-                {
                     label: 'Spořící účet',
                     link: '#',
                     icon: {
@@ -171,23 +152,6 @@ export default function LinksSection() {
                                 <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"/>
                                 <path d="M14 11h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5"/>
                                 <path d="M12 17v1m0 -8v1"/>
-                            </>
-                        ),
-                    },
-                },
-                {
-                    label: 'Porovnání brokerů',
-                    link: '#',
-                    icon: {
-                        className: 'icon icon-tabler icon-tabler-brand-ycombinator',
-                        stroke: '#00b341',
-                        path: (
-                            <>
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <path
-                                    d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"/>
-                                <path d="M8 7l4 6l4 -6"/>
-                                <path d="M12 17l0 -4"/>
                             </>
                         ),
                     },
