@@ -1,13 +1,17 @@
 "use client";
 import React, {useState} from 'react';
 import Link from "next/link";
+import Image from "next/image";
 
 export default function DropDownItem({label, link, icon, logo}) {
 
     let [isHovered, setIsHovered] = useState(false);
 
     return (
-        <section>
+        <section
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+        >
             {icon && (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -26,19 +30,17 @@ export default function DropDownItem({label, link, icon, logo}) {
             )}
             {!icon && (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img
+                <Image
                     src={logo}
                     alt={label}
-                    style={{
-                        filter: isHovered ? "grayscale(0)" : "var(--iconIMG)",
-                    }}
+                    width={20}
+                    height={20}
                 />
             )}
             {link && (
                 <Link
+                    onClick={() =>  window.scrollTo(0, 0)}
                     href={link}
-                    onMouseEnter={() => setIsHovered(true)}
-                    onMouseLeave={() => setIsHovered(false)}
                 >
                     {label}
                 </Link>
