@@ -33,6 +33,4 @@ Používáme webový framework NextJS a vercel pro deployování naší stránky
 
 ## Feedback
 
-Budeme moc rádi za feedback, který ným pomůže ve vylepšení naší stránky
-
-Děkujeme za pozornost!
+Budeme moc rádi za feedback, který nám pomůže ve vylepšení naší stránky
