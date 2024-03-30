@@ -96,7 +96,7 @@ export const menuItems = [
             },
             {
                 label: 'Jak zaplatit daně',
-                link: '/clanky/Jak-zaplatit-dani',
+                link: '/clanky/Jak-zaplatit-dane',
                 icon: {
                     className: 'icon icon-tabler icon-tabler-wallet',
                     stroke: '#00b341',
