@@ -1,7 +1,7 @@
 .rightSide {
     display: flex;
     justify-content: space-between;
-    height: 100%;
+    align-content: stretch;
     flex: 1;
     padding-left: 20px;
 }

@@ -20,7 +20,7 @@ export const menuItems = [
             },
             {
                 label: 'Podepsání smlouvy',
-                link: '#',
+                link: '/clanky/Podepsani-smlouvy',
                 icon: {
                     className: 'icon icon-tabler icon-tabler-pencil-question',
                     stroke: '#00b341',
@@ -37,7 +37,7 @@ export const menuItems = [
             },
             {
                 label: 'Co je to růžový papír',
-                link: '#',
+                link: '/clanky/Co-je-to-ruzovy-papir',
                 icon: {
                     className: 'icon icon-tabler icon-tabler-news',
                     stroke: '#fd0061',
@@ -77,7 +77,7 @@ export const menuItems = [
         items: [
             {
                 label: 'Druhy daní',
-                link: '#',
+                link: '/clanky/Druhy-dani',
                 icon: {
                     className: 'icon icon-tabler icon-tabler-businessplan',
                     stroke: '#00b341',
@@ -96,7 +96,7 @@ export const menuItems = [
             },
             {
                 label: 'Jak zaplatit daně',
-                link: '#',
+                link: '/clanky/Jak-zaplatit-dani',
                 icon: {
                     className: 'icon icon-tabler icon-tabler-wallet',
                     stroke: '#00b341',
@@ -117,7 +117,7 @@ export const menuItems = [
         items: [
             {
                 label: 'Spořící účet',
-                link: '#',
+                link: '/clanky/Sporici-ucet',
                 icon: {
                     className: 'icon icon-tabler icon-tabler-building-bank',
                     stroke: '#00b341',
@@ -138,7 +138,7 @@ export const menuItems = [
             },
             {
                 label: 'Investování do akcii',
-                link: '#',
+                link: '/clanky/Investovani-do-akcii',
                 icon: {
                     className: 'icon icon-tabler icon-tabler-file-dollar',
                     stroke: '#00b341',
@@ -155,12 +155,12 @@ export const menuItems = [
             },
             {
                 label: 'Trading 212',
-                link: '#',
+                link: '/clanky/Trading212',
                 logo: '/nawbar/Trading212.png',
             },
             {
                 label: 'Etoro',
-                link: '#',
+                link: '/clanky/Etoro',
                 logo: '/nawbar/Etoro.png',
             },
         ],
