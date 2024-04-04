@@ -4,7 +4,7 @@ export const menuItems = [
         items: [
             {
                 label: 'Kde hledat brigádu',
-                link: '/clanky/Kde-hledat-brigadu',
+                link: '/clanky/Na-co-si-davat-pozor',
                 icon: {
                     className: 'icon icon-tabler icon-tabler-map',
                     stroke: '#00b341',
