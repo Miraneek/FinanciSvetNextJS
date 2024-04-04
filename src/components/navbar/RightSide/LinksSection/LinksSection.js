@@ -1,14 +1,14 @@
+"use client"
 import DropDownMenu from "@/components/navbar/RightSide/LinksSection/DropDownMenu/DropDownMenu";
 import styles from "./LinksSection.module.css";
 import {menuItems} from "@/clanky";
-export default function LinksSection() {
-
-
+export default function LinksSection({isSearching}) {
 
     return (
         <section className={styles.linksSection}>
-            <ul>
-                {menuItems.map((menuItem, index) => (
+            <ul className={isSearching ? styles.links : ""}>
+                {
+                    menuItems.map((menuItem, index) => (
                     <DropDownMenu
                         key={index}
                         title={menuItem.title}

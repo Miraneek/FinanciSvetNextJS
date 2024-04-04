@@ -65,13 +65,35 @@
     top: 80px;
     width: 100%;
     z-index: 999;
+    left: 2px;
+    background: rgba(115, 115, 115, 0.5);
+    transition: all 0.2s ease-in-out;
+    overflow: clip;
+    padding-top: 0;
+    padding-left: 10px;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.glow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-52%);
+    left: 0;
+    height: 98%;
+    width: 4px;
     border-radius: 10px;
-    background: var(--darkerBackgroundColor);
-    list-style-type: none;
-    padding: 10px;
+    background: rgba(255, 255, 255);
+    box-shadow: 0 0 20px 2px white;
+    z-index: 100000;
 }
 
 @media only screen and (max-width: 1000px) {
+
+    .results{
+        width: 100%;
+    }
+
     .searchSection {
         width: 100%;
         margin: 0 auto;
