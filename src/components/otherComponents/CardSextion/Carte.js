@@ -7,7 +7,6 @@ export default function Carte({Name, Image, Url}) {
         <Link href={Url} className={style.obalkarty}>
                 <img className={style.mainimage} src={Image} alt={Name}/>
                 <h1 className={style.nametext}>{Name}</h1>
-
         </Link>
     )
 }

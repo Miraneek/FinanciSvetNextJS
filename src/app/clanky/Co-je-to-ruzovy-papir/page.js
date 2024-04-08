@@ -1,14 +1,11 @@
 import Title from "@/components/ClankyComponenty/Title/Title";
 import Textonly from "@/components/ClankyComponenty/Textonly/Textonly";
+import CoJeToRuzoviPapir from "@/components/ClankyComponenty/Co-Je-To-Ruzovi-Papir/CoJeToRuzoviPapir";
 
 export default function coJeToRuzovyPapir() {
     return (
         <>
-            <Title title={"nadpis"}/>
-            <Textonly imgLink={"/clanky/Co-je-to-ruzovy-papir/char.png"} prava={true}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua
-            </Textonly>
+            <CoJeToRuzoviPapir/>
         </>
     );
 }
