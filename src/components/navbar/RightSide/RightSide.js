@@ -7,9 +7,11 @@ import HamburgerMenu from "@/components/navbar/RightSide/HamburgerButton/Hamburg
 
 export default function RightSide() {
     const [isOpen, setIsOpen] = useState(false);
+    const [isSearchOpen, setIsSearchOpen] = useState(false);
 
     function handleToggle() {
         setIsOpen(!isOpen);
+        setIsSearchOpen(isSearchOpen ? false : isSearchOpen);
     }
 
     return (
@@ -20,8 +22,8 @@ export default function RightSide() {
                     isOpen ? styles.open : " "
                 }`}
             >
-                <LinksSection />
-                <SearchSection />
+                <LinksSection isSearching={isSearchOpen}/>
+                <SearchSection setIsSearchOpen={setIsSearchOpen}/>
             </section>
         </>
     );

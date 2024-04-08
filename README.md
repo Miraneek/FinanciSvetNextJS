@@ -4,7 +4,7 @@ Vítejte v projektu Finanční Svět, který se zaměřuje na poskytování jedn
 
 ## Naše stránka
 
-[<img src="https://i.imgur.com/prVJsFL.png">](https://financnisvet.vercel.app)
+[<img src="https://i.ibb.co/2ZCnWzS/obr-zek-2024-03-20-133457894.png">](https://financnisvet.vercel.app)
 
 ## O Projektu
 
@@ -33,6 +33,4 @@ Používáme webový framework NextJS a vercel pro deployování naší stránky
 
 ## Feedback
 
-Budeme moc rádi za feedback, který ným pomůže ve vylepšení naší stránky
-
-Děkujeme za pozornost!
+Budeme moc rádi za feedback, který nám pomůže ve vylepšení naší stránky
