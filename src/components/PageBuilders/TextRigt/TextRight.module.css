@@ -1,9 +1,9 @@
-.relative{
+.relative {
     position: relative;
     right: 27vw;
-
 }
-.text{
+
+.text {
     position: absolute;
     z-index: 9999;
     background-color: #00152B;
@@ -11,24 +11,26 @@
     text-shadow: 0 0 10px #fff;
     width: 393px;
     height: 159px;
-    color: white;
 }
-.obrazek{
-        width: 387px;
-        height: 372px;
-        display: flex;
-        margin-right: 50vw;
+
+.obrazek {
+    width: 387px;
+    height: 372px;
+    display: flex;
+    margin-right: 50vw;
     position: absolute;
     z-index: 1;
 }
-.core{
+
+.core {
     position: absolute;
     top: 80px;
     left: 250px;
     z-index: 2;
 
 }
-.nadpis{
+
+.nadpis {
     font-weight: bold;
     padding: 3px;
 
