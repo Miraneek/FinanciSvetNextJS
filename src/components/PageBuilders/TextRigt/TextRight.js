@@ -3,7 +3,7 @@ export default function ({nadpis, text, img, textPosition}) {
     return (
         <>
             <div className={styles.relative}>
-                <img className={styles.obrazek} src={"/cojetoruzovipapirobrazky/manthinkin.png"}/>
+                <img className={styles.obrazek} src={"/co-je-to-ruzovy-papir-obrazky/manthinkin.png"}/>
                 <div className={styles.core}>
                     <div className={styles.text}>
                         <h3 className={styles.nadpis}>

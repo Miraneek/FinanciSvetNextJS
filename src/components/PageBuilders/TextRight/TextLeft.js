@@ -1,20 +1,19 @@
 import styles from "./TextLeft.module.css";
-export default function ({nadpis, text, img, textPosition}) {
+import Image from "next/image";
+
+export default function TextLeft(props) {
     return (
         <>
             <div className={styles.relative}>
-                <img className={styles.obrazek} src={"/cojetoruzovipapirobrazky/manthinkin.png"}/>
+                <Image className={styles.obrazek} src={props.imgSRC} alt={props.nadpis + " obrazek"} width={400} height={372}/>
                 <div className={styles.core}>
                     <div className={styles.text}>
                         <h3 className={styles.nadpis}>
-                            Nazev clanku
+                            {props.nadpis}
                         </h3>
-                        <a className={styles.text}>
-                            fwofewof wefm weifn wrfgwufwfhweufh dvniowefiods jwiovwkvnwignv
-                        </a>
+                        {props.children}
                     </div>
                 </div>
-
             </div>
         </>
     );
