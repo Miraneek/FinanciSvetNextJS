@@ -7,6 +7,7 @@
     padding: 14rem 6rem 0 6rem;
     transition: color 0.4s ease-in;
     position: relative;
+    max-width: 1400px;
 }
 
 .transitionBlur {
