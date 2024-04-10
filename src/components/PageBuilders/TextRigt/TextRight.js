@@ -1,4 +1,5 @@
 import styles from "./TextRight.module.css";
+import Link from "next/link";
 export default function ({nadpis, text, img, textPosition}) {
     return (
         <>
