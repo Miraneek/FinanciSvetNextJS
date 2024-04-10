@@ -6,7 +6,7 @@
 
 .text {
     position: absolute;
-    z-index: 9999;
+    z-index: 99;
     background-color: #00152B;
     color: white;
     text-shadow: 0 0 10px #fff;

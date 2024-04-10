@@ -33,7 +33,7 @@ export default function SearchSection({setIsSearchOpen}) {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (results.length > 0) {
-            window.location.href = `/clanky/${results[0].item.title}`;
+            window.location.href = `/clanky/${results[0].item.link}`;
         }
     };
 
@@ -56,10 +56,10 @@ export default function SearchSection({setIsSearchOpen}) {
                 <ul className={styles.results}>
                     <div className={styles.glow}></div>
                     {results.map((result, index) => (
-                        index < 10 &&
+                        index < 6 &&
                         <li key={result.item.title}>
-                            <Link href={`/clanky/${result.item.title}`}>
-                                {result.item.title.split('-').join(' ')}
+                            <Link href={`/clanky/${result.item.link}`}>
+                                {result.item.title}
                             </Link>
                         </li>
                     ))}
