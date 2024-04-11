@@ -27,7 +27,7 @@ export default function RootLayout({children}) {
         <Analytics/>
         <Navbar/>
         <div className={styles.transitionBlur}></div>
-        <main className={"mt-[200px] min-h-[60vh] relative max-w-[1200px] w-[100%] mx-auto flex flex-col items-center"}>
+        <main className={"mt-[200px] min-h-[60vh] relative lg:max-w-[1300px] w-[100%] mx-auto flex flex-col items-center"}>
             {children}
         </main>
         <Footer/>

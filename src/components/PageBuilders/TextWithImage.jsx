@@ -1,20 +1,21 @@
+import Image from "next/image";
+
 export default function TextWithImage(props) {
+    const marginBottom = props.margin ? props.margin : 400;
+
     const backgroundImageStyle = {
         backgroundImage: `url(${props.imgSRC})`,
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
     };
-
 
     return (
         <div
-            className={`relative h-[500px] w-[600px] rounded-sm mb-10 ${props.isLeft ? 'self-start' : 'self-end'}`}
+            className={`bg-transparent z-4 lg:bg-cover lg:bg-no-repeat lg:bg-center lg:relative lg:aspect-square w-[90%] lg:w-[500px] rounded-sm lg:m-10 mb-4 ${props.isLeft ? 'lg:self-start' : 'lg:self-end'} flex-col justify-center items-stretch`}
             style={backgroundImageStyle}>
+            <Image src={props.imgSRC} alt={props.nadpis + " obrazek"} width={500} height={500} className={"lg:hidden w-[100%]"}/>
             <section
-                className={"w-[500px] p-5 rounded-sm absolute top-[40%] translate-y-[-50%] bg-[var(--backgroundColor)] text-xl shadow-black shadow" + (props.isLeft ? ' right-[-360px]' : ' left-[-360px]')}>
-                <h2 className={"text-3xl"}>{props.nadpis}</h2>
-                <div className={"pt-5"}>
+                className={"lg:w-[500px] z-100 p-5 rounded-sm lg:absolute lg:top-[40%] bg-[var(--backgroundColor)] text-xl shadow-black shadow relative" + (props.isLeft ? ' lg:right-[-400px]' : ' lg:left-[-400px]')}>
+                <h2 className={"lg:text-2xl"}>{props.nadpis}</h2>
+                <div className={"pt-5 lg:text-1xl"}>
                     {props.children}
                 </div>
             </section>

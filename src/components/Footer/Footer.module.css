@@ -5,8 +5,8 @@
     align-items: center;
     padding: 20px;
     background-color: var(--secondColor);
-    margin-top: 100px;
     z-index: 1000;
+    margin-top: 250px;
 }
 
 .footer * {
