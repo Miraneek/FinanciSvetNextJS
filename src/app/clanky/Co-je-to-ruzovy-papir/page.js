@@ -1,14 +1,18 @@
-import TextLeft from "@/components/PageBuilders/TextRight/TextLeft";
 import Link from "next/link";
+import TextWithImage from "@/components/PageBuilders/TextWithImage";
 
 export default function coJeToRuzovyPapir() {
     return (
         <>
-            <div>
-                <TextLeft nadpis={"co je to ruzovy papir?"} imgSRC={"/nawbar/FinancniSvetLogo.png"}>
-                    <Link href={"https://www.google.cz"}>Velmi cool link</Link>
-                </TextLeft>
-            </div>
+            <TextWithImage nadpis={"Co je to ruzovy papir?"} imgSRC={"/co-je-to-ruzovy-papir-orazky/manthinkin.png"} isLeft={true}>
+                <Link href={"https://www.google.cz"}>Velmi cool link</Link>
+            </TextWithImage>
+            <TextWithImage nadpis={"Co je to ruzovy papir?"} imgSRC={"/co-je-to-rzovy-papir-obrazky/manthinkin.png"} isLeft={false}>
+                <Link href={"https://www.google.cz"}>Velmi cool link</Link>
+            </TextWithImage>
+            <TextWithImage nadpis={"Co je to ruzovy papir?"} imgSRC={"/co-je-to-uzovy-papir-obrazky/manthinkin.png"} isLeft={true}>
+                <Link href={"https://www.google.cz"}>Velmy cool link</Link>
+            </TextWithImage>
         </>
     );
 }
