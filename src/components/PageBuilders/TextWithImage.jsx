@@ -1,10 +1,11 @@
 import Image from "next/image";
 
 export default function TextWithImage(props) {
-    const marginBottom = props.margin ? props.margin : 400;
+    const marginBottom = props.margin ? props.margin : 40
 
     const backgroundImageStyle = {
         backgroundImage: `url(${props.imgSRC})`,
+        marginBottom: `${marginBottom}px`,
     };
 
     return (
