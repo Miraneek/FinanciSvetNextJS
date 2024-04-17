@@ -1,6 +1,7 @@
 import Link from "next/link";
 import TextWithImage from "@/components/PageBuilders/TextWithImage";
 import ArticleTitle from "@/components/PageBuilders/ArticleTitle";
+import ImageOnTheWholeWebsite from "@/components/PageBuilders/ImageOnTheWholeWebsite";
 
 export default function coJeToRuzovyPapir() {
     return (
@@ -43,6 +44,15 @@ export default function coJeToRuzovyPapir() {
                            isLeft={true}>
                 <Link href={"https://www.google.cz"}>Velmy cool link</Link>
             </TextWithImage>
+            <ImageOnTheWholeWebsite nadpis={"CO JE TIO ERER"} imgSRC={"/co-je-to-ruzovy-papir-obrazky/manthinkin.png"} size={"[500px]"}>
+
+                <li>Nemusíte platit daň z přijmu (15%)</li>
+                <li>Říkáte jim státu hej já jsem student (nebo invalida) a chci slevu</li>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos error iste mollitia
+                    reprehenderit sunt. Accusantium, aliquam id magnam magni odio quibusdam ut? Cum, cupiditate
+                </li>
+            </ImageOnTheWholeWebsite>
         </>
     );
 }
