@@ -26,7 +26,6 @@ export default function Footer() {
                         </a>
                         <a href="https://github.com/Felepena" target="_blank">
                             <h5>Filip Másilko
-
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img src="/footer/github%20logo.png" alt="GitHub logo"/>
                             </h5>

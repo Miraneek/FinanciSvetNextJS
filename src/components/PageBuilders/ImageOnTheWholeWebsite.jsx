@@ -12,7 +12,8 @@ export default function ImageOnTheWholeWebsite(props) {
 
 
     return (
-        <div
+        <section
+            id={props.id}
             className={`relative aspect-square w-full lg:w-2/3 rounded-sm mb-${[props.size]}`}
             style={backgroundImageStyle}>
             <Image src={props.imgSRC} alt={props.nadpis + " obrazek"} width={500} height={500} className={"lg:hidden w-[100%]"}/>
@@ -23,6 +24,6 @@ export default function ImageOnTheWholeWebsite(props) {
                     {props.children}
                 </div>
             </section>
-        </div>
+        </section>
     );
 }
