@@ -11,7 +11,7 @@ export default function Page({params}) {
             <h4 className={"text-4xl mt-4"}>
                 Jediný funkční článek je v této době tento
             </h4>
-            <Link href={"./Co-je-to-ruzovy-papir"} className={"text-3xl mt-4 text-blue-500 hover:text-blue-700 font-bold transition-all delay-1s"}>Co je to růžový papír</Link>
+            <Link href={"./Co-je-to-ruzovy-papir"} className={"text-3xl mt-4 text-blue-500 hover:text-blue-700 font-bold transition-all delay-1s"}>Co je to růžový papír?</Link>
         </>
     )
 }
