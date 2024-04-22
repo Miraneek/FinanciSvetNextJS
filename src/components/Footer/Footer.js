@@ -1,46 +1,46 @@
 import styles from "./Footer.module.css";
 
-export default function Footer(){
-    return(
+export default function Footer() {
+    return (
         <footer className={styles.footer}>
             <div className={styles.footerLinks}>
                 <h3>Credits</h3>
                 <ul>
                     <li>
                         <h4>Icons</h4>
-                        <h5>
-                            <a href="https://tablericons.com/">Tabler Icons</a>
-                            <a href="https://tablericons.com/" target="_blank">
+                        <a href="https://tablericons.com/" target="_blank">
+                            <h5>
+                                Tabler Icons
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img src="/footer/tabler%20icon%20logo.png" alt="Tabler Icons logo"/>
-                            </a>
-                        </h5>
+                            </h5>
+                        </a>
                     </li>
                     <li>
                         <h4>Programming</h4>
-                        <h5>Miroslav Novotný
-                            <a href="https://github.com/Miraneek" target="_blank">
+                        <a href="https://github.com/Miraneek" target="_blank">
+                            <h5>Miroslav Novotný
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img src="/footer/github%20logo.png" alt="GitHub logo"/>
-                            </a>
-                        </h5>
-                        <h5>Filip Másilko
-                            <a href="https://github.com/Felepena" target="_blank">
+                            </h5>
+                        </a>
+                        <a href="https://github.com/Felepena" target="_blank">
+                            <h5>Filip Másilko
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img src="/footer/github%20logo.png" alt="GitHub logo"/>
-                            </a>
-                        </h5>
+                            </h5>
+                        </a>
                     </li>
                     <li>
                         <h4>Design</h4>
-                        <h5>Matěj Rybář
-                            <a href="https://www.instagram.com/matyrybarr/" target="_blank">
+                        <a href="https://www.instagram.com/matyrybarr/" target="_blank">
+                            <h5>Matěj Rybář
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
                                 <img src="/footer/instagram%20logo.webp" alt="Instagram logo"/>
-                            </a>
-                        </h5>
-                        <h5>Vito Kraus🙈
-                            <span>
+                            </h5>
+                        </a>
+                        <h5>Vito Kraus
+                            <span className={"flex"}>
                         <a href="https://www.instagram.com/vito.kraus/" target="_blank">
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img src="/footer/instagram%20logo.webp" alt="Instagram logo"/>

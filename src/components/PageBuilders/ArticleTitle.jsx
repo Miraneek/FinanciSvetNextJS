@@ -9,7 +9,7 @@ export default function ArticleTitle(props) {
     };
 
     return (
-        <div
+        <section
             className={`bg-transparent z-4 lg:bg-cover lg:bg-no-repeat lg:bg-top lg:relative lg:aspect-video w-[90%] lg:w-[500px] rounded-sm flex-col justify-center items-stretch`}
             style={backgroundImageStyle}>
             <Image src={props.imgSRC} alt={props.nadpis + " obrazek"} width={500} height={500}
@@ -21,6 +21,6 @@ export default function ArticleTitle(props) {
                     {props.children}
                 </div>
             </section>
-        </div>
+        </section>
     )
 }
