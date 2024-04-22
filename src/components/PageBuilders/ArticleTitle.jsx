@@ -5,7 +5,7 @@ export default function ArticleTitle(props) {
 
     const backgroundImageStyle = {
         backgroundImage: `url(${props.imgSRC})`,
-        marginBottom: `${marginBottom}px`,
+            marginBottom: `${marginBottom}px`,
     };
 
     return (

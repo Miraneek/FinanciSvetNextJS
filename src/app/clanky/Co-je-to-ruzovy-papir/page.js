@@ -30,9 +30,6 @@ export default function coJeToRuzovyPapir() {
                     <li>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos error iste mollitia
                         reprehenderit sunt. Accusantium, aliquam id magnam magni odio quibusdam ut? Cum, cupiditate
-                        doloribus ea eum ex incidunt inventore minima mollitia nihil perspiciatis quae quod voluptatum.
-                        Cumque earum expedita iste magnam, minima minus pariatur perspiciatis repellat tenetur ut
-                        voluptas.
                     </li>
                 </ul>
             </TextWithImage>
@@ -40,12 +37,15 @@ export default function coJeToRuzovyPapir() {
                            isLeft={false}>
                 <Link href={"https://www.google.cz"}>Velmi cool link</Link>
             </TextWithImage>
-            <TextWithImage nadpis={"Co je to ruzovy papir?"} imgSRC={"/co-je-to-ruzovy-papir-obrazky/manthinkin.png"}
+            <TextWithImage margin={150} nadpis={"Co je to ruzovy papir?"} imgSRC={"/co-je-to-ruzovy-papir-obrazky/manthinkin.png"}
                            isLeft={true}>
                 <Link href={"https://www.google.cz"}>Velmy cool link</Link>
             </TextWithImage>
-            <ImageOnTheWholeWebsite nadpis={"CO JE TIO ERER"} imgSRC={"/co-je-to-ruzovy-papir-obrazky/manthinkin.png"} size={"[500px]"}>
-
+            <ImageOnTheWholeWebsite
+                nadpis="CO JE TIO ERER"
+                imgSRC="/co-je-to-ruzovy-papir-obrazky/manthinkin.png"
+                margin={150}
+            >
                 <li>Nemusíte platit daň z přijmu (15%)</li>
                 <li>Říkáte jim státu hej já jsem student (nebo invalida) a chci slevu</li>
                 <li>
@@ -53,6 +53,11 @@ export default function coJeToRuzovyPapir() {
                     reprehenderit sunt. Accusantium, aliquam id magnam magni odio quibusdam ut? Cum, cupiditate
                 </li>
             </ImageOnTheWholeWebsite>
+
+            <TextWithImage nadpis={"Co je to ruzovy papir?"} imgSRC={"/co-je-to-ruzovy-papir-obrazky/manthinkin.png"}
+                           isLeft={true}>
+                <Link href={"https://www.google.cz"}>Velmy cool link</Link>
+            </TextWithImage>
         </>
     );
 }
