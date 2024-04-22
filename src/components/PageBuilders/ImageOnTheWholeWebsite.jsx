@@ -12,11 +12,11 @@ export default function ImageOnTheWholeWebsite(props) {
     return (
         <div
             id={props.id}
-            className={`lg:bg-[image:var(--image-url)] lg:relative aspect-square lg:w-2/3 w-[90%] rounded-sm lg:bg-cover lg:bg-no-repeat lg:bg-top`}
+            className={`lg:bg-[image:var(--image-url)] lg:relative aspect-square lg:w-6/12 w-[90%] rounded-sm lg:bg-cover lg:bg-no-repeat lg:bg-top scroll-m-[30vh]`}
             style={backgroundImageStyle}>
             <Image src={props.imgSRC} alt={props.nadpis + " obrazek"} width={500} height={500} className={"lg:hidden w-[100%]"} />
             <section
-                className=" lg:w-[700px] z-100 p-5 rounded-sm lg:absolute lg:top-[90%] bg-[var(--backgroundColor)] text-xl shadow-black shadow lg:right-[-200px]" >
+                className={` lg:w-[700px] z-100 p-5 rounded-sm lg:absolute lg:top-[90%] bg-[var(--backgroundColor)] text-xl shadow-black shadow ${props.isLeft ? 'lg:left-[-200px]' : 'lg:right-[-200px]'}`} >
                 <h2 className="text-3xl">{props.nadpis}</h2>
                 <div className="pt-5  lg:text-1xl">
                     {props.children}

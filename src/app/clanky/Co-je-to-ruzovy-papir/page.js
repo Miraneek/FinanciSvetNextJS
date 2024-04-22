@@ -37,7 +37,7 @@ export default function coJeToRuzovyPapir() {
             </ArticleTitle>
 
             <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/obrazek-1.webp"} id={"co-je-to-ruzovy-papir-obrazky"}
-                           nadpis={"Co je to růžový papír?"} isLeft={false}>
+                           nadpis={"Co je to růžový papír?"} isLeft={true}>
                 <ul className={"ml-4"}>
                     <li>
                         Dokument
@@ -51,7 +51,7 @@ export default function coJeToRuzovyPapir() {
                 </ul>
             </TextWithImage>
             <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/obrazek-2.webp"} id={"co-dela"} nadpis={"Co to dělá, pokud to podepíšete?"}
-                           isLeft={true}>
+                           isLeft={false}>
                 <ul className={"ml-4"}>
                     <li>
                         Dostanete vyznačené slevy na dani. (sleva pro studenta, sleva na poplatníka)
@@ -62,7 +62,7 @@ export default function coJeToRuzovyPapir() {
                 </ul>
             </TextWithImage>
             <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/obrazek-3.webp"} nadpis={"Co se stane, když ho nepředám?"}
-                           id={"co-se-stane"} isLeft={false}>
+                           id={"co-se-stane"} isLeft={true}>
                 <ul className={"ml-4"}>
                     <li>
                         Neodečtou se Vám slevy na dani, na které máte nárok.
@@ -74,7 +74,7 @@ export default function coJeToRuzovyPapir() {
                 </ul>
             </TextWithImage>
             <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/obrazek-4.webp"} nadpis={"Děležíté informace/limitace:"}
-                           id={"dulezite-info"} isLeft={true}>
+                           id={"dulezite-info"} isLeft={false}>
                 <ul className={"ml-4"}>
                     <li>
                         Můžete ho mít pouze v jedné práci.
@@ -87,7 +87,7 @@ export default function coJeToRuzovyPapir() {
                     </li>
                 </ul>
             </TextWithImage>
-            <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/obrazek-5.webp"} nadpis={"Praktický příklad"} id={"prakticky-priklad"} isLeft={false} margin={60}>
+            <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/obrazek-5.webp"} nadpis={"Praktický příklad"} id={"prakticky-priklad"} isLeft={true} margin={60}>
                 <ul className={"ml-4"}>
                     <li>
                         <h4 className={"text-2xl underline"}>
@@ -115,7 +115,7 @@ export default function coJeToRuzovyPapir() {
             </TextWithImage>
             <ImageOnTheWholeWebsite imgSRC={"/co-je-to-ruzovy-papir-obrazky/step-by-step.png"}
                                     imgALT={"Růžový papír step by step"}
-                                    nadpis={"Jak vyplnit růžový papír step by step"} id={"tutorial"} margin={500} isLeft={true}>
+                                    nadpis={"Jak vyplnit růžový papír step by step"} id={"tutorial"} margin={500} isLeft={false}>
                 <ul className={"ml-4 list-disc"}>
                     <li>
                         Jdi na tento odkaz a stáhni si tento dokument. <Link className={"text-blue-500"}
@@ -140,21 +140,18 @@ export default function coJeToRuzovyPapir() {
                     <li>Vaše adresa</li>
                     <li>Toto zaškrtněte</li>
                     <li>Toto zaškrtněte, pokud jste student</li>
-                    <li>Zde se podepište s datumem, od kdy má sleva platit (většinou začátek roku)</li>
                 </ol>
 
             </ImageOnTheWholeWebsite>
 
-            <ImageOnTheWholeWebsite imgSRC={"/co-je-to-ruzovy-papir-obrazky/step-by-step-2.png"} imgALT={"Růžový papír step by step"} nadpis={"Druhá strana"} margin={100} isLeft={false}>
+            <ImageOnTheWholeWebsite imgSRC={"/co-je-to-ruzovy-papir-obrazky/step-by-step-2.png"} imgALT={"Růžový papír step by step"} nadpis={"Druhá strana"} margin={100} isLeft={true}>
                 <ol className={"list-decimal ml-9"}>
-                    <li>
-                        Podepište se.
-                    </li>
+                    <li>Zde se podepište s datumem, od kdy má sleva platit (většinou začátek roku)</li>
                 </ol>
             </ImageOnTheWholeWebsite>
 
             <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/obrazek-6.webp"} nadpis={"Další informace / zdroje:"}
-                           isLeft={true}>
+                           isLeft={false}>
                 <ul className={"ml-4"}>
                     <li>
                         <Link className={"text-blue-500"} href={"https://neotax.eu/cs/blog/ruzovy-papir-a-co-to-vlastne-je"}>https://neotax.eu/cs/blog/ruzovy-papir-a-co-to-vlastne-je</Link>

@@ -11,7 +11,7 @@ export default function TextWithImage(props) {
     return (
         <section
             id={props.id}
-            className={`lg:bg-[image:var(--image-url)] z-4 lg:bg-cover lg:bg-no-repeat lg:bg-center lg:relative lg:aspect-square w-[90%] lg:w-[500px] rounded-sm lg:m-10 mb-4 ${props.isLeft ? 'lg:self-start' : 'lg:self-end'} flex-col justify-center items-stretch`}
+            className={`lg:bg-[image:var(--image-url)] z-4 lg:bg-cover lg:bg-no-repeat lg:bg-center lg:relative lg:aspect-square w-[90%] lg:w-[500px] rounded-sm lg:m-10 mb-4 ${props.isLeft ? 'lg:self-start' : 'lg:self-end'} flex-col justify-center items-stretch scroll-m-[30vh]`}
             style={backgroundImageStyle}>
             <Image src={props.imgSRC} alt={props.nadpis + " obrazek"} width={500} height={500} className={"lg:hidden w-[100%]"}/>
             <section
