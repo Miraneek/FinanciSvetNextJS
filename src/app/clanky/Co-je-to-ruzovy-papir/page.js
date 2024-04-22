@@ -6,7 +6,7 @@ import ImageOnTheWholeWebsite from "@/components/PageBuilders/ImageOnTheWholeWeb
 export default function coJeToRuzovyPapir() {
     return (
         <>
-            <ArticleTitle nadpis={"Co je to růžový papír?"} imgSRC={"/nawbar/FinancniSvetLogo.png"} margin={300}>
+            <ArticleTitle nadpis={"Co je to růžový papír?"} imgSRC={"/co-je-to-ruzovy-papir-obrazky/header.png"} margin={300}>
                 <h2 className={"text-2xl mb-2"}>
                     Kapitoly:
                 </h2>
@@ -36,8 +36,8 @@ export default function coJeToRuzovyPapir() {
                 </ul>
             </ArticleTitle>
 
-            <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/test.png"} id={"co-je-to-ruzovy-papir-obrazky"}
-                           nadpis={"Co je to rúžový papír?"} isLeft={false}>
+            <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/obrazek-1.webp"} id={"co-je-to-ruzovy-papir-obrazky"}
+                           nadpis={"Co je to růžový papír?"} isLeft={false}>
                 <ul className={"ml-4"}>
                     <li>
                         Dokument
@@ -50,7 +50,7 @@ export default function coJeToRuzovyPapir() {
                     </li>
                 </ul>
             </TextWithImage>
-            <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/test.png"} id={"co-dela"} nadpis={"Co to dělá, pokud to podepíšete?"}
+            <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/obrazek-2.webp"} id={"co-dela"} nadpis={"Co to dělá, pokud to podepíšete?"}
                            isLeft={true}>
                 <ul className={"ml-4"}>
                     <li>
@@ -61,7 +61,7 @@ export default function coJeToRuzovyPapir() {
                     </li>
                 </ul>
             </TextWithImage>
-            <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/test.png"} nadpis={"Co se stane, když ho nepředám?"}
+            <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/obrazek-3.webp"} nadpis={"Co se stane, když ho nepředám?"}
                            id={"co-se-stane"} isLeft={false}>
                 <ul className={"ml-4"}>
                     <li>
@@ -73,7 +73,7 @@ export default function coJeToRuzovyPapir() {
                     </li>
                 </ul>
             </TextWithImage>
-            <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/test.png"} nadpis={"Děležíté informace/limitace:"}
+            <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/obrazek-4.webp"} nadpis={"Děležíté informace/limitace:"}
                            id={"dulezite-info"} isLeft={true}>
                 <ul className={"ml-4"}>
                     <li>
@@ -87,7 +87,7 @@ export default function coJeToRuzovyPapir() {
                     </li>
                 </ul>
             </TextWithImage>
-            <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/test.png"} nadpis={"Praktický příklad"} id={"prakticky-priklad"} isLeft={false} margin={60}>
+            <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/obrazek-5.webp"} nadpis={"Praktický příklad"} id={"prakticky-priklad"} isLeft={false} margin={60}>
                 <ul className={"ml-4"}>
                     <li>
                         <h4 className={"text-2xl underline"}>
@@ -153,7 +153,7 @@ export default function coJeToRuzovyPapir() {
                 </ol>
             </ImageOnTheWholeWebsite>
 
-            <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/test.png"} nadpis={"Další informace / zdroje:"}
+            <TextWithImage imgSRC={"/co-je-to-ruzovy-papir-obrazky/obrazek-6.webp"} nadpis={"Další informace / zdroje:"}
                            isLeft={true}>
                 <ul className={"ml-4"}>
                     <li>

@@ -10,7 +10,7 @@ export default function ArticleTitle(props) {
 
     return (
         <section
-            className={`lg:bg-[image:var(--image-url)] z-4 lg:bg-cover lg:bg-no-repeat lg:bg-top lg:relative lg:aspect-video w-[90%] lg:w-[500px] rounded-sm flex-col justify-center items-stretch`}
+            className={`lg:bg-[image:var(--image-url)] z-4 lg:bg-cover lg:bg-no-repeat lg:bg-top lg:relative lg:aspect-video w-[90%] lg:w-[500px] rounded-sm flex-col justify-center items-stretch shadow-black shadow`}
             style={backgroundImageStyle}>
             <Image src={props.imgSRC} alt={props.nadpis + " obrazek"} width={500} height={500}
                    className={"lg:hidden w-[100%]"}/>
