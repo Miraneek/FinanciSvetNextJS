@@ -145,7 +145,7 @@ export default function coJeToRuzovyPapir() {
 
             </ImageOnTheWholeWebsite>
 
-            <ImageOnTheWholeWebsite imgSRC={"/co-je-to-ruzovy-papir-obrazky/step-by-step-2.png"} imgALT={"Růžový papír step by step"} nadpis={"Druhá strana"} margin={500} isLeft={false}>
+            <ImageOnTheWholeWebsite imgSRC={"/co-je-to-ruzovy-papir-obrazky/step-by-step-2.png"} imgALT={"Růžový papír step by step"} nadpis={"Druhá strana"} margin={100} isLeft={false}>
                 <ol className={"list-decimal ml-9"}>
                     <li>
                         Podepište se.
