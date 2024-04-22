@@ -15,7 +15,7 @@ export default function TextWithImage(props) {
             style={backgroundImageStyle}>
             <Image src={props.imgSRC} alt={props.nadpis + " obrazek"} width={500} height={500} className={"lg:hidden w-[100%]"}/>
             <section
-                className={"lg:w-[500px] z-100 p-5 rounded-sm lg:absolute lg:top-[15%] bg-[var(--backgroundColor)] text-xl shadow-black shadow relative" + (props.isLeft ? ' lg:right-[-400px]' : ' lg:left-[-400px]')}>
+                className={"lg:w-[500px] z-100 p-5 rounded-sm lg:absolute lg:top-[20%] bg-[var(--backgroundColor)] text-xl shadow-black shadow relative" + (props.isLeft ? ' lg:right-[-400px]' : ' lg:left-[-400px]')}>
                 <h2 className={"lg:text-2xl"}>{props.nadpis}</h2>
                 <div className={"pt-5 lg:text-1xl"}>
                     {props.children}
