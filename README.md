@@ -16,11 +16,11 @@ Náš tým tvoří tři studenti IT s různými specializacemi:
 
 ## Popis Problému
 
-Projekt vznikl z potřeby řešit praktické otázky týkající se financí, kterým mladí lidé často čelí. Nejde o to, jak složité daňové přiznání, ale spíše o základy, jako je placení daní, investice a hledání brigád.
+Projekt vznikl z potřeby řešit praktické otázky týkající se financí, kterým mladí lidé často čelí. Často se mladí setkávají na internetu s dlouhými články a neví si s nima rady.
 
 ## Řešení
 
-Naše webová stránka nabízí jednoduchý přístup k informacím o finanční gramotnosti. Zde naleznete články, tutoriály a jednoduché step by step tutoriály, které vám pomohou porozumět základním principům financí.
+Naše webové řešení nabízí jednoduchý přístup k informacím o finanční gramotnosti. Zde naleznete články, tutoriály a jednoduché step by step tutoriály, které vám pomohou porozumět základním principům financí.
 
 ## Technologie
 
