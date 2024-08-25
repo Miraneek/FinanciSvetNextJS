@@ -22,15 +22,16 @@ Projekt vznikl z potřeby řešit praktické otázky týkající se financí, kt
 
 Naše webové řešení nabízí jednoduchý přístup k informacím o finanční gramotnosti. Zde naleznete články, tutoriály a jednoduché step by step tutoriály, které vám pomohou porozumět základním principům financí.
 
-## Technologie
+## Tech Stack
 
-Používáme webový framework NextJS a vercel pro deployování naší stránky.
+- React js
+- Next js
+- Vercel (Deploy)
+- Tailwind
+
+Je potřeba zmínit, že během práce na projektu jsme se postpně učili nové věci a pro například nepoužíváme tailwind hned od začátku.
 
 ## Odkazy
 
 - [Finanční Svět](https://financnisvet.vercel.app)
 - [Formulář pro zpětnou vazbu](https://forms.gle/LTxMtpbreAKNXdKj9)
-
-## Feedback
-
-Budeme moc rádi za feedback, který nám pomůže ve vylepšení naší stránky
